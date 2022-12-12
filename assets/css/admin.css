@@ -1,0 +1,175 @@
+html, body {
+    width:100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #343835;
+  }
+  
+a{
+    text-decoration: none;
+}
+
+  input{
+    padding: 10px 12px;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #7d817e;
+    line-height: 1.5rem;
+    color: #343835;
+    font-size: 1rem;
+  
+  }
+
+  .navbar-brand img {
+    width: 150px;
+  }
+  
+  .navbar-nav li {
+    padding-right: 30px;
+    
+  }
+  
+  /* Header */
+  
+  header{
+    background-color: #d7e2da;
+  }
+  
+  .web {
+    text-decoration: none;
+  }
+  
+  .btn-light {
+    background-color: #8C1AF6;
+    color: #fff; 
+    border-radius: 30px;
+    border-color: hsl(271, 92%, 53%);
+  }
+  
+  .nav-link {
+    font-size: 1.1em !important;
+  }
+  
+/*
+SIDEBAR
+ */
+
+ .sidebar{
+    margin: 1rem 0;
+    background-color: #ffffff;
+    min-height: 400px;
+}
+
+.sidebar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color:#952ef5;
+}
+
+.sidebar ul a{
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid #952ef5;
+    color: #952ef5;
+}
+
+.sidebar ul a:hover{
+    padding-left: 10px;
+    transition: all 0.3s;
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #952ef5;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #952ef5;
+    border-radius: 10px;
+    margin-right: 20px;
+    border-color: #952ef5;
+}
+
+.conferences{
+    height: 100%;
+    padding: 40px 100px 100px;
+}
+
+.conferences h2{
+    margin-bottom: 20px;
+}
+
+.conferences .title-table div{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+    font-weight: 700;
+}
+
+.conferences .conference div{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+}
+.conferences .conference .red{
+    color: #006669;
+}
+.conferences .conference .del{
+    color: red;
+}
+.conferences .conference .id{
+    font-weight: bold;
+}
+
+.add-conference .err{
+    padding: 1rem 0;
+    color: #A52A2A;
+}
+.add-conference .err ul{
+    list-style-type: none;
+    color: #A52A2A;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{
+    font-family: Arial, Helvetica, sans-serif; color: black
+}
+.bootstrap-iso form button, .bootstrap-iso form button:hover{
+    color: white !important;
+} 
+.asteriskField{color: red;
+}
+
+.form{
+    width: 400px;
+}
+
+.form div{
+    margin-bottom: 25px;
+    padding-right: 5px;
+}
+
+.form .select{
+    margin-left: 15px;
+}
+
+.form-label{
+    margin-top: 10px;
+}
+
+.form-control{
+    width: 500px;
+}
+
+.address{
+    margin-top: 20px;
+}
